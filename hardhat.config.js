@@ -6,13 +6,13 @@ require("@nomiclabs/hardhat-etherscan");
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.19",
-  networks: {
-    sepolia: {
-      url: ``,
-      accounts: ``,
-    },
-  },
-  etherscan: {
-    apiKey: "",
-  },
+  // networks: {
+  //   sepolia: {
+  //     url: ``,
+  //     accounts: ``,
+  //   },
+  // },
+  // etherscan: {
+  //   apiKey: "",
+  // },
 };
