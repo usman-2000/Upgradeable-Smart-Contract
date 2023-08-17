@@ -29,3 +29,17 @@ const num1 = await upgrades.deployProxy(Box,[2],{
 initializer:"initializer"
 });
 ```
+
+## Run Scripts
+
+First split the terminal into two and on first terminal run the hardhat node
+
+```shell
+npx hardhat node
+```
+
+After that , run scripts
+
+```shell
+npx hardhat run --network localhost scripts/deploy_Box.js
+```
